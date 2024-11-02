@@ -18,7 +18,7 @@ class _BuildClass1 extends State<Screen44> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Digital Shop"),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.pinkAccent.shade100,
       ),
       body: Expanded(
         child: Scrollbar(
