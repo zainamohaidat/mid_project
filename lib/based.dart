@@ -14,6 +14,9 @@ import 'Screen10.dart';
 import 'Screen11.dart';
 import 'Screen12.dart';
 import 'Screen13.dart';
+import 'Screen14.dart';
+import 'Screen15.dart';
+import 'Screen16.dart';
 
 class routeClass{
   static Route generator(RouteSettings setting){
@@ -44,6 +47,12 @@ class routeClass{
         return  MaterialPageRoute(builder: (_)=>Screen12());
       case route13:
         return  MaterialPageRoute(builder: (_)=>Screen13());
+      case route14:
+        return  MaterialPageRoute(builder: (_)=>Screen14());
+      case route15:
+        return  MaterialPageRoute(builder: (_)=>Screen15());
+      case route16:
+        return  MaterialPageRoute(builder: (_)=>Screen16());
       default :
         return MaterialPageRoute(builder: (_)=>errorPage());
 
