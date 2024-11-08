@@ -26,10 +26,12 @@ class _BuildClass1 extends State<Screen44> {
             padding: EdgeInsets.all(10), // Optional padding
             children: [
               Container(
+
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Gaming accessories", style: TextStyle(fontSize: 30)),
+
+                    Text("Gaming accessories", style: TextStyle(fontSize: 30,),),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
